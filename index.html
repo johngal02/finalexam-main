@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Your existing head content -->
+    <title>Login Form</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/auth/login.js" type="module"></script>
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <form id="form_login">
+            <h3>Login Now</h3>
+            <div class="alert alert-success" role="alert"></div>
+            <div class="alert alert-danger" role="alert"></div>
+            <div id="errorContainer"></div>
+
+            <input type="email" name="email" id="email" required placeholder="Enter your email">
+            <input type="password" name="password" id="password" required placeholder="Enter your password">
+
+
+            <button type="submit" class="form-btn">Login Now</button>
+            <div class="small">
+                Need an account? <a href="landingpage.html">Sign up!</a>
+              </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
